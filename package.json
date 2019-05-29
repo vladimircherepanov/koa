@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app/server",
+    "dev": "nodemon --exec 'npm start && npm run eslint'",
+    "lint": "eslint app",
+    "lint:fix": "eslint --fix app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "config": "^3.1.0",
+    "eslint": "^5.16.0",
+    "eslint-cli": "^1.1.1",
+    "eslint-config-google": "^0.13.0",
+    "keymirror": "^0.1.1",
+    "koa": "^2.7.0",
+    "nodemon": "^1.19.1"
+  }
+}
